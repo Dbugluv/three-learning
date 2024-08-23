@@ -18,7 +18,7 @@ function makeInstance(geomerty, color, x) {
   const cube = new THREE.Mesh(geomerty, material);
   scene.add(cube);
 
-  cube.position.x = x;
+  cube.position.x  = x;
   return cube;
 }
 
